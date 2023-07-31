@@ -1,7 +1,7 @@
 # SpotifyLogin
 
 ## Overview
-`SpotifyLogin` is a lightweight framework that enables your application to obtain the authentication code from the Spotify app.
+`SpotifyLogin` is a lightweight framework that enables your application to obtain the authentication code from the Spotify app. Please note that this framework is currently under development and only supports a subset of the [ios-sdk](https://github.com/spotify/ios-sdk)'s functionalities. If you wish to use all features related to authentication, please utilize [ios-sdk](https://github.com/spotify/ios-sdk).
 
 ## Minimum Requirement
 iOS 11
