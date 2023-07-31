@@ -1,0 +1,45 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name SpotifyLogin
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+@_exported import SpotifyLogin
+import StoreKit
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+@objc(SPTConfiguration) @objcMembers public class Configuration : ObjectiveC.NSObject {
+  @objc final public let clientID: Swift.String
+  @objc final public let redirectURLString: Swift.String
+  @objc public init(clientID: Swift.String, redirectURLString: Swift.String)
+  @objc deinit
+}
+@objc(SPTSessionManagerDelegate) public protocol SessionManagerDelegate {
+  @objc func sessionManager(manager: SpotifyLogin.SessionManager, didFailWith error: Swift.Error)
+  @objc func sessionManager(manager: SpotifyLogin.SessionManager, shouldRequestAccessTokenWith code: Swift.String)
+}
+@objc(SPTSessionManager) @objcMembers final public class SessionManager : ObjectiveC.NSObject {
+  @objc final public var delegate: SpotifyLogin.SessionManagerDelegate?
+  @objc final public var alwaysShowAuthorizationDialog: Swift.Bool
+  @objc public init(configuration: SpotifyLogin.Configuration)
+  @objc deinit
+}
+extension SpotifyLogin.SessionManager {
+  @objc final public var isSpotifyAppInstalled: Swift.Bool {
+    @objc get
+  }
+  @objc final public func startAuthorizationCodeProcess(with scopes: SpotifyLogin.Scope)
+  @objc final public func openURL(_ url: Foundation.URL) -> Swift.Bool
+}
+public enum SpotifyError : Swift.Error {
+  case unknown
+  case authorizationFailed
+  public static func == (a: SpotifyLogin.SpotifyError, b: SpotifyLogin.SpotifyError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension SpotifyLogin.SpotifyError : Swift.Equatable {}
+extension SpotifyLogin.SpotifyError : Swift.Hashable {}

@@ -1,0 +1,11 @@
+framework module SpotifyLogin {
+  umbrella header "SpotifyLogin.h"
+
+  export *
+  module * { export * }
+}
+
+module SpotifyLogin.Swift {
+  header "SpotifyLogin-Swift.h"
+  requires objc
+}
