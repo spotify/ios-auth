@@ -11,7 +11,7 @@ This is a lightweight framework that enables your application to obtain the auth
   s.homepage         = 'https://github.com/spotify/ios-auth'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'masakih' => 'masakih@spotify.com' }
-  s.source           = { :git => 'https://github.com/spotify/ios-auth.git', :tag => 'v1.0.0' }
+  s.source           = { :git => 'https://github.com/spotify/ios-auth.git', :tag => "v#{s.version}" }
 
   s.ios.deployment_target = '11.0'
 
