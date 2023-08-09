@@ -9,7 +9,7 @@ This is a lightweight framework that enables your application to obtain the auth
                        DESC
 
   s.homepage         = 'https://github.com/spotify/ios-auth'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.license          = { :type => 'Apache 2.0', :file => 'LICENSE' }
   s.author           = { 'masakih' => 'masakih@spotify.com' }
   s.source           = { :git => 'https://github.com/spotify/ios-auth.git', :tag => "v#{s.version}" }
 
