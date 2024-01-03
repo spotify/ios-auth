@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/SpotifyLogin-Swift.h</key>
 		<data>
-		WUtxbu3K9fZdNmgaIbVp2uolL2c=
+		uPuYboJKLsPEU/cNwEWf14Tj9T8=
 		</data>
 		<key>Headers/SpotifyLogin.h</key>
 		<data>
@@ -18,51 +18,55 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		dnpHAffZhJdMMMZXK92rSM4fjUE=
+		S6eOKhM83MJe8MKm/wUKLVhV3zE=
 		</data>
 		<key>Modules/SpotifyLogin.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		HtlqJ8H/Yu8L/AqEK2LpmxQ2H8k=
+		xb0x8E43dJUdnwhpD9OwuEfX+oE=
 		</data>
 		<key>Modules/SpotifyLogin.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		OHvx+VeJU6rgVzs7ucpNHNJaHZM=
+		nlI8SzNFE7trIDkDLNNhERz8GyE=
 		</data>
 		<key>Modules/SpotifyLogin.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		u1bKaTSkgRLS/zG9dEVKWMa43kk=
+		7XtEu3rOC5XK8cI7Sp/Gx7qOkDA=
 		</data>
 		<key>Modules/SpotifyLogin.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		OHvx+VeJU6rgVzs7ucpNHNJaHZM=
+		nlI8SzNFE7trIDkDLNNhERz8GyE=
 		</data>
 		<key>Modules/SpotifyLogin.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		xQs88rLoexMtk6ed3zk1ouQmPeQ=
+		4aV05Ffuzhy8SQckkmd9AuJunFg=
 		</data>
 		<key>Modules/SpotifyLogin.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		HtlqJ8H/Yu8L/AqEK2LpmxQ2H8k=
+		xb0x8E43dJUdnwhpD9OwuEfX+oE=
 		</data>
 		<key>Modules/SpotifyLogin.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		5JsEnvJcJjMY1BBgtWzoA3sGawY=
+		5j1IDqRTfFbvFUpIcwDg9v/pd24=
 		</data>
 		<key>Modules/SpotifyLogin.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		i4jB98iPeD/DGUnRDMPD/tullkc=
+		e8jlFWf8Elth5CTE4F/wo1a0oZE=
 		</data>
 		<key>Modules/SpotifyLogin.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		5JsEnvJcJjMY1BBgtWzoA3sGawY=
+		5j1IDqRTfFbvFUpIcwDg9v/pd24=
 		</data>
 		<key>Modules/SpotifyLogin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		XI6k+wvmXN8PAHHEYNVOAdGioV8=
+		TTJUor7SADEF6aMvAWbRuQSFXOY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		jeEvf+J4Ykdoh3XeAJ3quxRP7fY=
+		rmHR56dz3HrG/5cIJNCB0v7CaCA=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		AL1dh5ctObXBjoBiabSJ86M3HQs=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -78,7 +82,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BGi7Nn6j7UCY4TEWybCjObnr7IAznLbAn+TwucSD040=
+			BLMF5xByo8fX8DE9TkuqbdimiKaPWpbPIrcefzPgMRw=
 			</data>
 		</dict>
 		<key>Headers/SpotifyLogin.h</key>
@@ -92,77 +96,84 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OE9fFDkfjHyNuTKuTBRIDEqHUjXExEGU9YTllszfmU8=
+			e6mvsfl6nFOqd7HKR7TiQ6reQKVrHHQTdEk55QBSJhI=
 			</data>
 		</dict>
 		<key>Modules/SpotifyLogin.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aBn/bxFPtnZX+NBA0fMyOkLEWMlFhXqinKy/OldCYuU=
+			Rwq/3NZE5JLY3/m1mhh53U8AVHih4HpnOWUcnws5PuY=
 			</data>
 		</dict>
 		<key>Modules/SpotifyLogin.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nX4tR8gQ/WJ5fCxw5LrVvQ+I4+DN+h9cBdq+F3ZFqeg=
+			g7FQbRilk34RoIQwOWyDCi3OUCfr9dkDPcjq8fbaCt0=
 			</data>
 		</dict>
 		<key>Modules/SpotifyLogin.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aBn/bxFPtnZX+NBA0fMyOkLEWMlFhXqinKy/OldCYuU=
+			Rwq/3NZE5JLY3/m1mhh53U8AVHih4HpnOWUcnws5PuY=
 			</data>
 		</dict>
 		<key>Modules/SpotifyLogin.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lN/+y+fl1A0zCku/90dBS0oydax3zZwyPh3OV69WUvw=
+			7QJpIDQYKjb/2pWspkxwmHCSnQ0vZ3pE3WWZyohWhpo=
 			</data>
 		</dict>
 		<key>Modules/SpotifyLogin.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OE9fFDkfjHyNuTKuTBRIDEqHUjXExEGU9YTllszfmU8=
+			e6mvsfl6nFOqd7HKR7TiQ6reQKVrHHQTdEk55QBSJhI=
 			</data>
 		</dict>
 		<key>Modules/SpotifyLogin.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bTA1sKcTRFg3cKwAtaROG+A7x3UNJFbslzQ+nTsemDU=
+			gXOLskh9thBylqJdr/inv3RcQct7QGhCGFRWcRKIQ1k=
 			</data>
 		</dict>
 		<key>Modules/SpotifyLogin.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vHKdSUY98QoWlIWRjfyX/1Sl+unVBmdL4q5Pv8XQ/7w=
+			/9i09g6XWxMUJjeSShpbFjp94wg3rSTu2fXlsrQnb9E=
 			</data>
 		</dict>
 		<key>Modules/SpotifyLogin.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bTA1sKcTRFg3cKwAtaROG+A7x3UNJFbslzQ+nTsemDU=
+			gXOLskh9thBylqJdr/inv3RcQct7QGhCGFRWcRKIQ1k=
 			</data>
 		</dict>
 		<key>Modules/SpotifyLogin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LyRCH98jPdBK8z0uASm8yWyCGlFOI0dybV1Px4cKWgc=
+			7fUeTKvIgaJ29N8cabdWBEb/aGjVl3RP9whY3umUt4M=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FdRtqPox8i55WhsF8O1fQtcXevVnZYLeyhm0JHkE9YQ=
+			3XSdDL5Fj64bACijmNWPzLXXP57uOjMb25MRiuxEJbg=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			WpuPwM3bECAbtHzCgEs/AExyUUdmItJb/E61TtRuEIQ=
 			</data>
 		</dict>
 	</dict>
