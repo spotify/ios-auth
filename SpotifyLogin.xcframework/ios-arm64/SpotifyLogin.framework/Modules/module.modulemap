@@ -1,7 +1,7 @@
 framework module SpotifyLogin {
   umbrella header "SpotifyLogin.h"
-
   export *
+
   module * { export * }
 }
 
