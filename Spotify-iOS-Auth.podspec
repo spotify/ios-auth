@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Spotify-iOS-Auth'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'A lightweight framework that enables your application to obtain the authentication code from the Spotify app.'
 
   s.description      = <<-DESC
