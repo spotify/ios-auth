@@ -8,16 +8,16 @@ iOS 11
 
 ## Usage
 ### Prepare Your Environment
-- Install the latest version of Spotify from the App Store onto the device you will be using for development. Run the Spotify app and login or sign up.
+- Install the latest version of Spotify from the App Store onto the device you will be using for development. Run the Spotify app and log in or sign up.
 - [Register Your Application](https://developer.spotify.com/documentation/web-api/concepts/apps#register-your-app). You will need to register your application at [My Applications](https://developer.spotify.com/dashboard) and obtain a client ID. When you register your app you will also need to allowlist a redirect URI that the Spotify app will use to callback to your app after authorization.
 
 ### Installation
-- Add `SpotifyLogin.xcframework` to your project by dragging and dropping it in <b>Framworks, Libraries, and Embedded Content</b>
+- Add `SpotifyLogin.xcframework` to your project by dragging and dropping it in <b>Frameworks, Libraries, and Embedded Content</b>
 - In your info.plist add the following changes: 
    - Add your redirect URI you registered at My Applications. You will need to add your redirect URI under "URL types" and "URL Schemes". Be sure to set a unique "URL identifier" as well. More info on URL Schemes
    - Declare the Spotify’s URL scheme `spotify` by adding the `LSApplicationQueriesSchemes` key.
    
-### Get authentication code
+### Get the authentication code
 #### 1. Initialise `Configuration` with your client ID and redirect URI.
 
 <details>
@@ -100,7 +100,7 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 
 </details>
    
-#### 4. Start the authrization process with the scopes you need.
+#### 4. Start the authorization process with the scopes you need.
    
 <details>
    
