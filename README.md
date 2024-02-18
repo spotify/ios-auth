@@ -14,7 +14,7 @@ iOS 11
 ### Installation
 - Add `SpotifyLogin.xcframework` to your project by dragging and dropping it in <b>Framworks, Libraries, and Embedded Content</b>
 - In your info.plist add the following changes: 
-   - Add your redirect URI you registered at My Applications. You will need to add your redirect URI under "URL types" and "URL Schemes". Be sure to set a unique "URL identifier" as well. More info on URL Schemes
+   - Add your redirect URI you registered at My Applications. You will need to add your redirect URI under "URL types" and "URL Schemes". Be sure to set a unique "URL identifier" as well. [More info on URL Schemes](https://developer.apple.com/library/content/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Inter-AppCommunication/Inter-AppCommunication.html#//apple_ref/doc/uid/TP40007072-CH6-SW1)
    - Declare the Spotify’s URL scheme `spotify` by adding the `LSApplicationQueriesSchemes` key.
    
 ### Get authentication code
