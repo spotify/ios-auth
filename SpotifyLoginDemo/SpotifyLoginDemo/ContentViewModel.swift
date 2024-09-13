@@ -11,8 +11,11 @@ final class ContentViewModel: ObservableObject {
     }
 
     @Published private(set) var state: State = .idle
-    private let spotifyClientID = "6ca3f1f77b194899ae4c6674843e2510"
+
+    // Add here your clientID and redirect URI
+    private let spotifyClientID = "<#ClientID#>"
     private let spotifyRedirectURL = "spotify-login-sdk-demo-app://spotify-login-callback"
+    
     private lazy var sessionManager: SessionManager = {
         let configuration = Configuration(clientID: spotifyClientID, redirectURLString: spotifyRedirectURL)
         return SessionManager(configuration: configuration)

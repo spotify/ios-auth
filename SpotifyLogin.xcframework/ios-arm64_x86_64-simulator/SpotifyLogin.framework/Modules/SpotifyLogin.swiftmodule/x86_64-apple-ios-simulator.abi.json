@@ -295,7 +295,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "SpotifyLogin.SessionManagerDelegate?"
+                "printedName": "(any SpotifyLogin.SessionManagerDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -322,12 +322,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "SpotifyLogin.SessionManagerDelegate?",
+                    "printedName": "(any SpotifyLogin.SessionManagerDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "SessionManagerDelegate",
-                        "printedName": "SpotifyLogin.SessionManagerDelegate",
+                        "printedName": "any SpotifyLogin.SessionManagerDelegate",
                         "usr": "c:@M@SpotifyLogin@objc(pl)SPTSessionManagerDelegate"
                       }
                     ],
@@ -358,12 +358,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "SpotifyLogin.SessionManagerDelegate?",
+                    "printedName": "(any SpotifyLogin.SessionManagerDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "SessionManagerDelegate",
-                        "printedName": "SpotifyLogin.SessionManagerDelegate",
+                        "printedName": "any SpotifyLogin.SessionManagerDelegate",
                         "usr": "c:@M@SpotifyLogin@objc(pl)SPTSessionManagerDelegate"
                       }
                     ],
@@ -780,7 +780,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Error",
-                "printedName": "Swift.Error",
+                "printedName": "any Swift.Error",
                 "usr": "s:s5ErrorP"
               }
             ],
@@ -1081,501 +1081,438 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/Configuration.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/Configuration.swift",
       "kind": "StringLiteral",
       "offset": 231,
       "length": 13,
       "value": "\"SpotifyLogin.Configuration\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/Configuration.swift",
-      "kind": "StringLiteral",
-      "offset": 1140,
-      "length": 16,
-      "value": "\"^[0-9a-z]{32}$\""
-    },
-    {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/Configuration.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1393,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/Constant.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/Constant.swift",
       "kind": "StringLiteral",
       "offset": 263,
       "length": 10,
       "value": "\"spotify:\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/Constant.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/Constant.swift",
       "kind": "StringLiteral",
       "offset": 308,
       "length": 18,
       "value": "\"spotify-action:\/\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/Constant.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/Constant.swift",
       "kind": "StringLiteral",
       "offset": 367,
       "length": 11,
       "value": "\"324684580\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/Constant.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/Constant.swift",
       "kind": "StringLiteral",
       "offset": 442,
       "length": 12,
       "value": "\"\/authorize\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/Constant.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/Constant.swift",
       "kind": "StringLiteral",
       "offset": 541,
       "length": 11,
       "value": "\"client_id\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/Constant.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/Constant.swift",
       "kind": "StringLiteral",
       "offset": 599,
       "length": 14,
       "value": "\"redirect_uri\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/Constant.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/Constant.swift",
       "kind": "StringLiteral",
       "offset": 661,
       "length": 15,
       "value": "\"response_type\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/Constant.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/Constant.swift",
       "kind": "StringLiteral",
       "offset": 717,
       "length": 7,
       "value": "\"scope\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/Constant.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/Constant.swift",
       "kind": "StringLiteral",
       "offset": 770,
       "length": 3,
       "value": "\" \""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/Constant.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/Constant.swift",
       "kind": "StringLiteral",
       "offset": 813,
       "length": 6,
       "value": "\"code\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/Constant.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/Constant.swift",
       "kind": "StringLiteral",
       "offset": 865,
       "length": 13,
       "value": "\"show_dialog\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/Constant.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/Constant.swift",
       "kind": "StringLiteral",
       "offset": 975,
       "length": 6,
       "value": "\"code\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/Constant.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/Constant.swift",
       "kind": "StringLiteral",
       "offset": 1028,
       "length": 6,
       "value": "\"true\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/Constant.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/Constant.swift",
       "kind": "StringLiteral",
       "offset": 1102,
       "length": 10,
       "value": "\"nosignup\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/Constant.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/Constant.swift",
       "kind": "StringLiteral",
       "offset": 1157,
       "length": 6,
       "value": "\"true\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/Constant.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/Constant.swift",
       "kind": "StringLiteral",
       "offset": 1206,
       "length": 9,
       "value": "\"nolinks\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/Constant.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/Constant.swift",
       "kind": "StringLiteral",
       "offset": 1259,
       "length": 6,
       "value": "\"true\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/Constant.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/Constant.swift",
       "kind": "StringLiteral",
       "offset": 1310,
       "length": 12,
       "value": "\"utm_source\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/Constant.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/Constant.swift",
       "kind": "StringLiteral",
       "offset": 1367,
       "length": 12,
       "value": "\"utm_medium\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/Constant.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/Constant.swift",
       "kind": "StringLiteral",
       "offset": 1425,
       "length": 13,
       "value": "\"utm_content\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/Constant.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/Constant.swift",
       "kind": "StringLiteral",
       "offset": 1485,
       "length": 14,
       "value": "\"utm_campaign\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/Scope+Extension.swift",
-      "kind": "Array",
-      "offset": 135,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
       "kind": "StringLiteral",
       "offset": 77,
       "length": 23,
       "value": "\"playlist-read-private\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
       "kind": "StringLiteral",
       "offset": 138,
       "length": 29,
       "value": "\"playlist-read-collaborative\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
       "kind": "StringLiteral",
       "offset": 200,
       "length": 24,
       "value": "\"playlist-modify-public\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
       "kind": "StringLiteral",
       "offset": 258,
       "length": 25,
       "value": "\"playlist-modify-private\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
       "kind": "StringLiteral",
       "offset": 310,
       "length": 18,
       "value": "\"user-follow-read\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
       "kind": "StringLiteral",
       "offset": 357,
       "length": 20,
       "value": "\"user-follow-modify\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
       "kind": "StringLiteral",
       "offset": 405,
       "length": 19,
       "value": "\"user-library-read\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
       "kind": "StringLiteral",
       "offset": 454,
       "length": 21,
       "value": "\"user-library-modify\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
       "kind": "StringLiteral",
       "offset": 505,
       "length": 21,
       "value": "\"user-read-birthdate\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
       "kind": "StringLiteral",
       "offset": 552,
       "length": 17,
       "value": "\"user-read-email\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
       "kind": "StringLiteral",
       "offset": 597,
       "length": 19,
       "value": "\"user-read-private\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
       "kind": "StringLiteral",
       "offset": 640,
       "length": 15,
       "value": "\"user-top-read\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
       "kind": "StringLiteral",
       "offset": 682,
       "length": 18,
       "value": "\"ugc-image-upload\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
       "kind": "StringLiteral",
       "offset": 722,
       "length": 11,
       "value": "\"streaming\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
       "kind": "StringLiteral",
       "offset": 767,
       "length": 26,
       "value": "\"user-read-playback-state\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
       "kind": "StringLiteral",
       "offset": 829,
       "length": 28,
       "value": "\"user-modify-playback-state\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
       "kind": "StringLiteral",
       "offset": 894,
       "length": 29,
       "value": "\"user-read-currently-playing\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
       "kind": "StringLiteral",
       "offset": 958,
       "length": 27,
       "value": "\"user-read-recently-played\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
       "kind": "StringLiteral",
       "offset": 1004,
       "length": 8,
       "value": "\"openid\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
       "kind": "StringLiteral",
       "offset": 77,
       "length": 23,
       "value": "\"playlist-read-private\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
       "kind": "StringLiteral",
       "offset": 138,
       "length": 29,
       "value": "\"playlist-read-collaborative\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
       "kind": "StringLiteral",
       "offset": 200,
       "length": 24,
       "value": "\"playlist-modify-public\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
       "kind": "StringLiteral",
       "offset": 258,
       "length": 25,
       "value": "\"playlist-modify-private\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
       "kind": "StringLiteral",
       "offset": 310,
       "length": 18,
       "value": "\"user-follow-read\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
       "kind": "StringLiteral",
       "offset": 357,
       "length": 20,
       "value": "\"user-follow-modify\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
       "kind": "StringLiteral",
       "offset": 405,
       "length": 19,
       "value": "\"user-library-read\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
       "kind": "StringLiteral",
       "offset": 454,
       "length": 21,
       "value": "\"user-library-modify\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
       "kind": "StringLiteral",
       "offset": 505,
       "length": 21,
       "value": "\"user-read-birthdate\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
       "kind": "StringLiteral",
       "offset": 552,
       "length": 17,
       "value": "\"user-read-email\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
       "kind": "StringLiteral",
       "offset": 597,
       "length": 19,
       "value": "\"user-read-private\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
       "kind": "StringLiteral",
       "offset": 640,
       "length": 15,
       "value": "\"user-top-read\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
       "kind": "StringLiteral",
       "offset": 682,
       "length": 18,
       "value": "\"ugc-image-upload\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
       "kind": "StringLiteral",
       "offset": 722,
       "length": 11,
       "value": "\"streaming\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
       "kind": "StringLiteral",
       "offset": 767,
       "length": 26,
       "value": "\"user-read-playback-state\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
       "kind": "StringLiteral",
       "offset": 829,
       "length": 28,
       "value": "\"user-modify-playback-state\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
       "kind": "StringLiteral",
       "offset": 894,
       "length": 29,
       "value": "\"user-read-currently-playing\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
       "kind": "StringLiteral",
       "offset": 958,
       "length": 27,
       "value": "\"user-read-recently-played\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/ScopeString.swift",
       "kind": "StringLiteral",
       "offset": 1004,
       "length": 8,
       "value": "\"openid\""
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/SessionManager.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/SessionManager.swift",
       "kind": "BooleanLiteral",
       "offset": 606,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/SessionManager.swift",
+      "filePath": "\/tmp\/spotify-ios-auth-swift\/SpotifyLogin\/SessionManager.swift",
       "kind": "StringLiteral",
       "offset": 87,
       "length": 14,
       "value": "\"SpotifyLogin.SessionManager\""
-    },
-    {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/SessionManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1375,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/SessionManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2572,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/SessionManager.swift",
-      "kind": "Dictionary",
-      "offset": 2683,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/SessionManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3343,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/SessionManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3463,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/juanantoniol\/Developer\/pme\/spotify-ios-auth-swift\/SpotifyLogin\/SessionManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6087,
-      "length": 5,
-      "value": "false"
     }
   ]
 }

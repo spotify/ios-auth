@@ -1,5 +1,11 @@
 # Changelog
 
+## Spotify iOS SDK v1.1.1
+
+What's New:
+
+- Add bundle version string in the Info.plist
+
 ## Spotify iOS SDK v1.1.0
 
 What's New:
