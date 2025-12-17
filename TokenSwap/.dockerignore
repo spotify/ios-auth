@@ -1,0 +1,17 @@
+# Git files
+.git
+.gitignore
+
+# Environment files
+.env
+.env.*
+!env.example
+
+# Documentation
+*.md
+
+# Docker files (no need to copy these into the image)
+Dockerfile
+docker-compose.yml
+.dockerignore
+

@@ -1,0 +1,6 @@
+# Environment variables (contains secrets)
+.env
+
+# Bundler
+Gemfile.lock
+

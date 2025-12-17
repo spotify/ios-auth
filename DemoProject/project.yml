@@ -1,0 +1,21 @@
+name: SpotifyLoginDemo
+packages:
+  SpotifyLogin:
+    path: ../
+targets:
+  SpotifyLoginDemoApp:
+    type: application
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+        - path: SpotifyLoginDemo
+        - path: SpotifyLoginDemo/Info.plist
+          buildPhase: none
+        - path: README.md
+          buildPhase: none
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: com.spotify.sdk.SpotifyLoginDemoApp
+      INFOPLIST_FILE: SpotifyLoginDemo/Info.plist
+      CODE_SIGN_ENTITLEMENTS: SpotifyLoginDemoApp.entitlements
+    dependencies:
+      - package: SpotifyLogin

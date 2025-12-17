@@ -1,5 +1,33 @@
 # Changelog
 
+## Spotify iOS SDK v3.0.1
+
+What's New:
+
+- Build with Xcode 26.1.1
+
+## Spotify iOS SDK v3.0.0
+
+What's New:
+
+- Add PKCE with automatic token exchange and session management
+- Minimum iOS deployment target bumped to iOS 13.0
+- Implemented 4 authorization flows
+- Added web-based authentication support using `ASWebAuthenticationSession`
+- Changed `Configuration` to use `URL` instead of `String` for redirect URLs
+
+## Spotify iOS SDK v2.0.1
+
+What's New:
+
+- Replaced `SPTScope` with enum
+
+## Spotify iOS SDK v2.0.0
+
+What's New:
+
+- Replaced `SPTScope` OptionSet with `Scope` class that works in both Swift and Objective-C
+
 ## Spotify iOS SDK v1.1.1
 
 What's New:
