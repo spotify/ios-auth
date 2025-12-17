@@ -1,5 +1,5 @@
-import SwiftUI
 import SpotifyLogin
+import SwiftUI
 
 @main
 struct SpotifyLoginDemoApp: App {

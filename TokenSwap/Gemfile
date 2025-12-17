@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+
+gem 'sinatra', '~> 3.1'
+gem 'encrypted_strings', '~> 0.3.3'
+gem 'webrick', '~> 1.8'
+
