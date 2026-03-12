@@ -388,7 +388,6 @@ SWIFT_CLASS_NAMED("Session")
 @property (nonatomic, readonly, copy) NSDate * _Nonnull expirationDate;
 /// Check whether the session has expired.
 @property (nonatomic, readonly) BOOL isExpired;
-@property (nonatomic, readonly, copy) NSString * _Nonnull description;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end

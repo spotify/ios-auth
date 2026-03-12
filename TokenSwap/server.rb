@@ -85,6 +85,7 @@ post '/swap' do
     # encrypt the refresh token before forwarding to the client
     if response.code.to_i == 200
         token_data = JSON.parse(response.body)
+        # This is for testing purposes only. Do not print the tokens in production.
         puts "Response: SUCCESS"
         puts "Access Token: #{token_data['access_token'][0..20]}..." if token_data['access_token']
         puts "Refresh Token: #{token_data['refresh_token'][0..20]}..." if token_data['refresh_token']
