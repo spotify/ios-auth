@@ -65,8 +65,7 @@ The SDK can be integrated into your project using one of the following methods:
 Add the SDK as a dependency in your `Package.swift` or directly in Xcode:
 
 ```swift
-dependencies: [
-    .package(url: "https://github.com/spotify/ios-auth.git", from: "3.0.1")
+    .package(url: "https://github.com/spotify/ios-auth.git", from: "3.1.2")
 ]
 ```
 
@@ -75,7 +74,7 @@ dependencies: [
 To integrate using [CocoaPods](https://cocoapods.org/), add the following to your `Podfile`:
 
 ```ruby
-pod 'Spotify-iOS-Auth', '~> 3.0.1'
+pod 'Spotify-iOS-Auth', '~> 3.1.2'
 ```
 
 ### Setup

@@ -15,10 +15,24 @@ let package = Package(
         ),
     ],
     targets: [
-        .binaryTarget(
+        .target(
             name: "SpotifyLogin",
-            path: "SpotifyLogin.xcframework"
+            path: "Sources",
+            resources: [
+                .process("Resources/PrivacyInfo.xcprivacy"),
+            ]
+        ),
+        .testTarget(
+            name: "SpotifyLoginTests",
+            dependencies: ["SpotifyLogin"],
+            path: "Tests",
+            exclude: ["ObjCCompatibilityTests.m"]
+        ),
+        .testTarget(
+            name: "SpotifyLoginObjCCompatibilityTests",
+            dependencies: ["SpotifyLogin"],
+            path: "Tests",
+            sources: ["ObjCCompatibilityTests.m"]
         ),
     ]
 )
-

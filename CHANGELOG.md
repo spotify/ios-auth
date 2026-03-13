@@ -1,5 +1,30 @@
 # Changelog
 
+## Spotify iOS SDK v3.1.2
+
+What's New:
+
+- Fix release versions in podspec
+
+
+## Spotify iOS SDK v3.1.1
+
+What's New:
+
+- Fix `PrivacyInfo.xcprivacy` resource path for Swift Package Manager builds
+
+## Spotify iOS SDK v3.1.0
+
+What's New:
+
+- Open source SDK: Sources and Tests are now publicly available
+
+## Spotify iOS SDK v3.0.2
+
+What's New:
+
+- Removed `Session.description` override
+
 ## Spotify iOS SDK v3.0.1
 
 What's New:
